@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34640FA51C7842F00094EAC4 /* valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34640FA41C7842F00094EAC4 /* valor.swift */; };
+		34640FA71C7844270094EAC4 /* detalleVistaQuesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34640FA61C7844270094EAC4 /* detalleVistaQuesoInterfaceController.swift */; };
+		34640FAA1C7854100094EAC4 /* detalleVistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34640FA91C7854100094EAC4 /* detalleVistaMasa.swift */; };
+		34640FAC1C7858D60094EAC4 /* detalleVistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34640FAB1C7858D60094EAC4 /* detalleVistaIngredientes.swift */; };
+		34640FAE1C78637A0094EAC4 /* detalleVistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34640FAD1C78637A0094EAC4 /* detalleVistaConfirmacion.swift */; };
 		34B6D3341C7836FD00D99EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6D3331C7836FD00D99EB4 /* AppDelegate.swift */; };
 		34B6D3361C7836FD00D99EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6D3351C7836FD00D99EB4 /* ViewController.swift */; };
 		34B6D3391C7836FD00D99EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B6D3371C7836FD00D99EB4 /* Main.storyboard */; };
@@ -81,6 +86,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34640FA41C7842F00094EAC4 /* valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = valor.swift; sourceTree = "<group>"; };
+		34640FA61C7844270094EAC4 /* detalleVistaQuesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleVistaQuesoInterfaceController.swift; sourceTree = "<group>"; };
+		34640FA91C7854100094EAC4 /* detalleVistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleVistaMasa.swift; sourceTree = "<group>"; };
+		34640FAB1C7858D60094EAC4 /* detalleVistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleVistaIngredientes.swift; sourceTree = "<group>"; };
+		34640FAD1C78637A0094EAC4 /* detalleVistaConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleVistaConfirmacion.swift; sourceTree = "<group>"; };
 		34B6D3301C7836FD00D99EB4 /* WatchPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B6D3331C7836FD00D99EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B6D3351C7836FD00D99EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +223,11 @@
 				34B6D3741C7836FD00D99EB4 /* Assets.xcassets */,
 				34B6D3761C7836FD00D99EB4 /* Info.plist */,
 				34B6D36C1C7836FD00D99EB4 /* Supporting Files */,
+				34640FA41C7842F00094EAC4 /* valor.swift */,
+				34640FA61C7844270094EAC4 /* detalleVistaQuesoInterfaceController.swift */,
+				34640FA91C7854100094EAC4 /* detalleVistaMasa.swift */,
+				34640FAB1C7858D60094EAC4 /* detalleVistaIngredientes.swift */,
+				34640FAD1C78637A0094EAC4 /* detalleVistaConfirmacion.swift */,
 			);
 			path = "WatchPizza WatchKit Extension";
 			sourceTree = "<group>";
@@ -444,6 +459,11 @@
 			files = (
 				34B6D3731C7836FD00D99EB4 /* NotificationController.swift in Sources */,
 				34B6D3711C7836FD00D99EB4 /* ExtensionDelegate.swift in Sources */,
+				34640FA71C7844270094EAC4 /* detalleVistaQuesoInterfaceController.swift in Sources */,
+				34640FAE1C78637A0094EAC4 /* detalleVistaConfirmacion.swift in Sources */,
+				34640FAA1C7854100094EAC4 /* detalleVistaMasa.swift in Sources */,
+				34640FAC1C7858D60094EAC4 /* detalleVistaIngredientes.swift in Sources */,
+				34640FA51C7842F00094EAC4 /* valor.swift in Sources */,
 				34B6D36F1C7836FD00D99EB4 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,6 +753,7 @@
 				34B6D37B1C7836FD00D99EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B6D37D1C7836FD00D99EB4 /* Build configuration list for PBXNativeTarget "WatchPizza WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +762,7 @@
 				34B6D37F1C7836FD00D99EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B6D3811C7836FD00D99EB4 /* Build configuration list for PBXNativeTarget "WatchPizza" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +771,7 @@
 				34B6D3831C7836FD00D99EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B6D3841C7836FD00D99EB4 /* Build configuration list for PBXNativeTarget "WatchPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +780,7 @@
 				34B6D3861C7836FD00D99EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B6D3871C7836FD00D99EB4 /* Build configuration list for PBXNativeTarget "WatchPizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +789,7 @@
 				34B6D3891C7836FD00D99EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
