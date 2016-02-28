@@ -23,7 +23,7 @@ class detalleVistaIngredientes: WKInterfaceController {
         valores = c
         
         valores.imprimir()
-        
+        revisaSeleccionados()
     }
     
     @IBOutlet var btnSiguiente: WKInterfaceButton!
@@ -162,6 +162,35 @@ class detalleVistaIngredientes: WKInterfaceController {
         valores.remIngrediente(ingred)
         if valores.totIng==0{
             //btnSiguiente.setEnabled(false)
+        }
+    }
+    
+    func revisaSeleccionados(){
+        let ingSel = valores.vIngredientes
+        for ingrediente in ingSel
+        {
+            switch ingrediente{
+            case "Peperoni":
+                selPep.setOn(true)
+            case "Jamon":
+                selJam.setOn(true)
+            case "Pavo":
+                selPav.setOn(true)
+            case "Salchicha":
+                selSal.setOn(true)
+            case "Aceituna":
+                selAce.setOn(true)
+            case "Cebolla":
+                selCeb.setOn(true)
+            case "Pimiento":
+                selPim.setOn(true)
+            case "Piña":
+                selPiñ.setOn(true)
+            case "Alcachofa":
+                selAlc.setOn(true)
+            default: btnSiguiente.setEnabled(true)
+                
+            }
         }
     }
     

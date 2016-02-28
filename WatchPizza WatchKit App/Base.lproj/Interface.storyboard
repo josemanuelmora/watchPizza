@@ -206,7 +206,8 @@
                         <label width="1" alignment="left" text="Tipo de Masa" textAlignment="center" id="SCD-Ed-DBn">
                             <color key="textColor" red="0.9425840432" green="0.95788884159999999" blue="0.111138529" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <picker height="71" alignment="left" id="bRw-tx-jy5">
+                        <label width="1" height="13.5" alignment="left" text="Usa el scroll" textAlignment="center" id="0Wd-pG-Jti"/>
+                        <picker height="57" alignment="left" id="bRw-tx-jy5">
                             <connections>
                                 <action selector="seleccionaPicker:" destination="buz-Ig-8lw" id="F6s-Kw-saf"/>
                             </connections>
@@ -222,7 +223,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="378" y="345"/>
+            <point key="canvasLocation" x="378" y="337"/>
         </scene>
         <!--vistaQueso-->
         <scene sceneID="QXp-pe-nEw">
@@ -232,7 +233,8 @@
                         <label width="1" alignment="left" text="Tipo de Queso" textAlignment="center" id="eQl-QV-UGs">
                             <color key="textColor" red="0.9425840432" green="0.95788884159999999" blue="0.111138529" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <picker height="72" alignment="left" id="Sx1-wM-OlA">
+                        <label width="1" height="15.5" alignment="left" text="Usa el scroll" textAlignment="center" id="EI4-qg-dIm"/>
+                        <picker height="52" alignment="left" id="Sx1-wM-OlA">
                             <connections>
                                 <action selector="seleccionaPicker:" destination="530-W0-tOw" id="bvw-Xf-lmd"/>
                             </connections>
@@ -249,7 +251,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="532" y="345"/>
+            <point key="canvasLocation" x="532" y="340"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
